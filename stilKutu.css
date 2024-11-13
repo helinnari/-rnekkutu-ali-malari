@@ -1,0 +1,94 @@
+a:link{
+    text-decoration:none ;
+    line-height: 150%;
+    padding-right: 50px;
+}
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.inline li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+
+.kutu1{
+    background-color: lightgoldenrodyellow;
+    width: 250;
+    min-height: 250px;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+}
+
+.kutu2{
+    background-color: lightblue;
+    width: 100;
+    min-height: 100px;
+    padding: 30px;
+    margin: 20px;
+    float: left;
+}
+
+.kutu3{
+    background-color: lightgray;
+    width: 100;
+    min-height: 100px;
+    padding: 30px;
+    margin: 20px;
+    float: left;
+}
+
+
+.kutu4{
+    background-color: lightgrey;
+    width: 250;
+    min-height: 250px;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+}   
+
+body {
+    background-color: aliceblue;
+    }
+
+    .kutu {
+        width: 1350px;
+        padding: 20px;
+       
+        background-color:blanchedalmond;
+        text-align: center;
+        box-sizing: border-box;
+       
+        margin: 10px;
+    }
+
+    .yazi {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 15px; 
+    }
+
+    .link-butonu {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color:black;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+
+    .link-butonu:hover {
+        background-color: lightblue; 
+    }
